@@ -1,4 +1,5 @@
 # 4 вариант Ильина
+numbers = [3,7,2,8,5,1,4,6,9]
 print("Исходный список:", numbers)
 even=[]
 for i in range(len(numbers)):
