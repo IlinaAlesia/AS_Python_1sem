@@ -1,4 +1,4 @@
-# 4 задание Ильина
+# 4 вариант Ильина
 price = 20.4
 for i in range(1,11):
     cost =  price * i
