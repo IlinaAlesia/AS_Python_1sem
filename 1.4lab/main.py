@@ -1,4 +1,4 @@
-# 4 задание Ильина
+# 4 вариант Ильина
 print("Исходный список:", numbers)
 even=[]
 for i in range(len(numbers)):
