@@ -12,3 +12,4 @@ for i in range(len(numbers)-1,-1,-1):
         odd.sort(reverse=True)
 print("\nЧётные:", even)
 print("Нечётные:",odd)
+print(even+odd)
