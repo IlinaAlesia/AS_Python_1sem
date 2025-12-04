@@ -23,3 +23,6 @@ def transform_list(numbers, transform_function=None):
         result = [transform_function(x) for x in result]  
     return result  
 # в)
+def sum_positive_numbers(*args):  
+    return sum(num for num in args if num > 0)
+# г)
