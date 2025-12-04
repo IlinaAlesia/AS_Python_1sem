@@ -14,3 +14,12 @@ def calculate(a, b, operation='add'):
     else:  
         raise ValueError("Неизвестная операция. Допустимые значения: 'add', 'subtract', 'multiply', 'divide'")
 # б)
+def transform_list(numbers, transform_function=None):  
+    # Создаем копию исходного списка  
+    result = numbers.copy()  
+      
+    # Если функция преобразования указана, применяем её к каждому элементу  
+    if transform_function is not None:  
+        result = [transform_function(x) for x in result]  
+    return result  
+# в)
